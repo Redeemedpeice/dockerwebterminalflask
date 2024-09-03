@@ -1,5 +1,5 @@
 # Use the official Ubuntu image as a base
-FROM docker pull kalilinux/kali-rolling:latest
+FROM docker pull docker pull ubuntu:rolling
 
 # Update package lists and install necessary packages
 RUN apt-get update && apt-get install -y \
